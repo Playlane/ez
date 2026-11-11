@@ -2,14 +2,14 @@
    EZ Health Primary & Behavioral Health — styles (v4)
    ========================================================= */
 :root{
-  --bg:#EEEAE5;
-  --bg-2:#E7E2DC;
+  --bg:#EAF2FC;
+  --bg-2:#DBE7F8;
   --ink:#1A1A1A;
   --body:#4A4A4A;
   --blue:#0033CC;
   --blue-dark:#0029A6;
   --line:#1A1A1A;
-  --hair:#D6D0C9;
+  --hair:#C8D7EE;
   --serif:"Libre Caslon Display", "Libre Caslon Text", Georgia, serif;
   --serif-text:"Libre Caslon Text", Georgia, serif;
   --sans:"Montserrat", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -55,7 +55,7 @@ strong{color:var(--ink);font-weight:600}
 .blob-l::before{width:min(64vw,700px);height:min(70vw,720px);left:-16vw;top:10%;border-radius:40% 60% 52% 48% / 46% 38% 62% 54%}
 
 /* Header */
-header.site{position:sticky;top:0;z-index:40;background:rgba(238,234,229,.96);backdrop-filter:blur(8px)}
+header.site{position:sticky;top:0;z-index:40;background:rgba(234,242,252,.96);backdrop-filter:blur(8px)}
 .nav{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px;height:96px}
 .brand img{height:58px;width:auto}
 .menu{display:flex;justify-content:center;gap:6px;list-style:none;margin:0;padding:0}
@@ -108,7 +108,7 @@ header.site{position:sticky;top:0;z-index:40;background:rgba(238,234,229,.96);ba
 /* Blob photos */
 .blob-photo{position:relative;max-width:560px;margin:0 auto}
 .blob-photo img{width:100%;aspect-ratio:1/0.86;object-fit:cover;border-radius:46% 54% 58% 42% / 40% 36% 64% 60%}
-.blob-photo::before,.blob-photo::after{content:"";position:absolute;inset:-4% -2% 2% -6%;border:1px solid #CFC7BE;border-radius:46% 54% 58% 42% / 40% 36% 64% 60%;transform:rotate(-8deg);pointer-events:none}
+.blob-photo::before,.blob-photo::after{content:"";position:absolute;inset:-4% -2% 2% -6%;border:1px solid #BFD0EC;border-radius:46% 54% 58% 42% / 40% 36% 64% 60%;transform:rotate(-8deg);pointer-events:none}
 .blob-photo::after{inset:-1% -6% -2% -2%;transform:rotate(6deg)}
 .blob-photo.alt img{border-radius:58% 42% 40% 60% / 56% 52% 48% 44%;aspect-ratio:1/0.92}
 .blob-photo.alt::before,.blob-photo.alt::after{border-radius:58% 42% 40% 60% / 56% 52% 48% 44%}
@@ -173,7 +173,7 @@ footer.site .copy{grid-column:1/-1;font-size:.9rem;display:flex;justify-content:
 .page-hero .btn{margin-top:42px}
 .ticks{list-style:none;margin:20px 0 0;padding:0;display:grid;gap:14px}
 .ticks li{display:flex;gap:14px;align-items:flex-start}
-.ticks li::before{content:"";flex:none;width:22px;height:22px;margin-top:4px;border-radius:50%;background:var(--ink) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23EEEAE5' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4 8-9'/%3E%3C/svg%3E") center/12px no-repeat}
+.ticks li::before{content:"";flex:none;width:22px;height:22px;margin-top:4px;border-radius:50%;background:var(--ink) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23EAF2FC' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4 8-9'/%3E%3C/svg%3E") center/12px no-repeat}
 .plain{margin:16px 0 0;padding-left:20px;display:grid;gap:10px}
 .card .ticks + h3{margin-top:40px}
 .bag{counter-reset:b;list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
