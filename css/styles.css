@@ -256,3 +256,14 @@ a.u{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
 /* footer: crisis note + copyright only */
 footer.site .wrap{display:block;padding-top:36px}
 footer.site .crisis{border-top:0;padding-top:0;margin-top:0;margin-bottom:18px}
+/* larger header logo */
+.nav{height:112px}
+.brand img{height:80px}
+@media (max-width:1380px) and (min-width:1241px){.brand img{height:70px}}
+@media (max-width:1240px){.nav{height:96px}.brand img{height:66px}.menu.open{top:96px}}
+@media (max-width:420px){.brand img{height:56px}}
+.brand img{max-width:none}
+.nav > .brand{min-width:max-content}
+@media (min-width:1241px){.menu > li > a{padding:10px 10px;font-size:.95rem}.menu{gap:2px}.nav{gap:16px}}
+.nav .btn{white-space:nowrap;padding:0 24px}
+header.site .wrap{max-width:1320px}
