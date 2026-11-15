@@ -26,7 +26,7 @@ Each tab in the menu is its own page. The Services tab has a dropdown, and each 
 
 On GitHub Pages, each address also works without `.html` (for example `ezpbh.com/services`).
 
-Shared files: `css/styles.css` (design), `js/main.js` (menu and form), `assets/` (logo and photos). To show Dr. Eze's photo, send it to be added in place of the `FE` placeholder.
+
 Keep these folders next to the pages when you upload.
 
 ## Publish on GitHub Pages
